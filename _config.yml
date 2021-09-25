@@ -1,6 +1,6 @@
 name: jekyll-site-from-scratch
-url: http://localhost/jekyll-site-from-scratch
-baseurl: /
+url: https://noshadchaudhrywebdev1.github.io/jekyll-site-from-scratch
+baseurl: /jekyll-site-from-scratch
 plugins:
   - jekyll-feed
   - jekyll-sitemap
