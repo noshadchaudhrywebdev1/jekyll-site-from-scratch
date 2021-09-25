@@ -1,6 +1,7 @@
 name: jekyll-site-from-scratch
+domain: noshadchaudhrywebdev1.github.io
 url: https://noshadchaudhrywebdev1.github.io/jekyll-site-from-scratch
-baseurl: /jekyll-site-from-scratch
+baseurl: /jekyll-site-from-scratch/
 plugins:
   - jekyll-feed
   - jekyll-sitemap

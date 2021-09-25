@@ -4,7 +4,7 @@
 <html>
 <head>
 <title>{{ page.title }} | {{ site.title }}</title>
-<link rel="stylesheet" href="/main.css">
+<link rel="stylesheet" href="./main.css">
   {% feed_meta %}
   {% seo %}
 </head>
@@ -12,7 +12,7 @@
 <nav class="page-nav">
 <ul>
 {% for page in site.pages %}
-<li><a href="{{page.url}}">{{page.title}}</a></li>
+<li><a href=".{{page.url}}">{{page.title}}</a></li>
 {% endfor %}
 </ul>
 </nav>
