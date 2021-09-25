@@ -1,0 +1,7 @@
+name: jekyll-site-from-scratch
+url: http://localhost/jekyll-site-from-scratch
+baseurl: /
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag

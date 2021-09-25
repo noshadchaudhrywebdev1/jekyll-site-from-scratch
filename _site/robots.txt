@@ -1,0 +1,1 @@
+Sitemap: http://localhost/jekyll-site-from-scratch/sitemap.xml

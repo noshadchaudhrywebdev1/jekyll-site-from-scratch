@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "main.css",
+	"sources": [
+		"main.scss",
+		"_sass/_styles.scss"
+	],
+	"sourcesContent": [
+		"@import 'styles'",
+		"body, main, header {\r\n\tmargin: 0;\r\n\tpadding: 0;\r\n}\r\nbody {\r\n  background-color: yellow;\r\n}"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,IAAI,EAAE,IAAI,EAAE,MAAM,CAAC,EAClB,MAAM,EAAE,CAAC,EACT,OAAO,EAAE,CAAC,GACV;;AACD,AAAA,IAAI,CAAC,EACH,gBAAgB,EAAE,MAAM,GACzB"
+}

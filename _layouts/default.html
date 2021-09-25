@@ -1,0 +1,27 @@
+---
+---
+<!DOCTYPE html>
+<html>
+<head>
+<title>{{ page.title }} | {{ site.title }}</title>
+<link rel="stylesheet" href="/main.css">
+  {% feed_meta %}
+  {% seo %}
+</head>
+<body>
+<nav class="page-nav">
+<ul>
+{% for page in site.pages %}
+<li><a href="{{page.url}}">{{page.title}}</a></li>
+{% endfor %}
+</ul>
+</nav>
+<header>
+<h1>I guess I can write liquid here in .html file too.</h1>
+</header>
+<main>
+<!-- Liquid variable. -->
+{{content}}
+</main>
+</body>
+</html>
