@@ -7,6 +7,7 @@
 <link rel="stylesheet" href="./main.css">
   {% feed_meta %}
   {% seo %}
+  {% if jekyll.environment == 'production' %}{% include analytics.html %}{% include analytics.html %}{% endif %}
 </head>
 <body>
 <nav class="page-nav">
